@@ -42,7 +42,7 @@ class CKEditor {
 		'styles' => array('Styles', 'Format', 'Font', 'FontSize'),
 		'colors' => array('TextColor', 'BGColor'),
 		'tools' => array('Maximize', 'ShowBlocks')
-    	);
+	);
 	
 	/**
 	 * Creates a new CKEditor object.
