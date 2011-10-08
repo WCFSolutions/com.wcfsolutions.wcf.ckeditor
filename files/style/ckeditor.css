@@ -10,6 +10,18 @@ Copyright 2009-2011 by wcfsolutions.com
 
 /* ### -- -- -- -- -- Miscellaneous -- -- -- -- -- ### */
 
+body, html {
+	margin: 0 !important;
+	padding: 0 !important;
+}
 
+body {
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
 
 /* ### -- -- -- -- -- EOF -- -- -- -- -- ### */
