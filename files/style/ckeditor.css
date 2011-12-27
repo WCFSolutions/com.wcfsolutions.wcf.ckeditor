@@ -12,11 +12,16 @@ Copyright 2009-2011 by wcfsolutions.com
 
 body, html {
 	margin: 0 !important;
-	padding: 0 !important;
 }
 
 body {
+	padding: 0 !important;
 	font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+html {
+	padding: 10px !important;
+	font-size: .85em;
 }
 
 p {
