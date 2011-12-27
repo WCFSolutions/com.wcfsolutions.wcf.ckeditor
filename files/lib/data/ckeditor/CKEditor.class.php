@@ -56,7 +56,7 @@ class CKEditor {
 		$this->setConfigOptions(array(
 			'baseHref' => "'".$this->encodeJS(RELATIVE_WCF_DIR)."'",
 			'language' => "'".Language::fixLanguageCode(WCF::getLanguage()->getLanguageCode())."'",
-			'contentsCss' => "'".$this->encodeJS(FileUtil::addTrailingSlash(FileUtil::unifyDirSeperator(dirname(WCF::getSession()->requestURI))).RELATIVE_WCF_DIR.'style/ckeditor.css')."'",
+			'contentsCss' => "'".$this->encodeJS(FileUtil::addTrailingSlash(FileUtil::unifyDirSeperator(dirname(WCF::getSession()->requestURI))).RELATIVE_WCF_DIR.'style/extra/ckeditor.css')."'",
 			'customConfig' => "''",
 			'toolbar' => "'custom'",
 			'toolbar_custom' => $this->getToolbarJS($this->toolbarItems)
